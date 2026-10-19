@@ -1,0 +1,8 @@
+# Dashboard runtime dependencies (Python >=3.12).
+# Versions match the locally tested environment.
+# Install with: python -m pip install -r requirements.txt
+# Notebook training dependencies are outside this file's scope.
+streamlit==1.65.0
+pandas==3.0.6
+plotly==7.1.0
+numpy==2.5.4
