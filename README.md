@@ -59,7 +59,14 @@ Open the local address shown in the terminal, usually **http://localhost:8501**.
 
 - `streamlit_dashboard/app.py` — Streamlit dashboard.
 - `streamlit_dashboard/data/` — Compressed datasets needed to run the dashboard (included in this repository).
-- `streamlit_dashboard/requirements.txt` — Required Python packages.
 - `data_cleaning.ipynb` — Data exploration, cleaning and modelling notebook; not required to launch the dashboard.
 
 The original large CSV datasets are not required to launch the dashboard.
+
+## Data Source & References
+
+The datasets used in this project are sourced from *Global hotspots of shark interactions with industrial longline fisheries*, available on Zenodo.
+
+Preprocessed datasets are included in `streamlit_dashboard/data/`.
+
+**Reference:** Burns, E. S., Bradley, D., & Thomas, L. R. (2023). Global hotspots of shark interactions with industrial longline fisheries [Dataset]. Zenodo. https://doi.org/10.25349/D9789W
